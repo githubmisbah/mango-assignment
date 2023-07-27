@@ -14,7 +14,7 @@
     <header>
 <!--Navbar section-->
 <nav>
-    <div class="navbar bg-orange-600 w-4/5 rounded-full mx-auto mt-6">
+    <div class="navbar bg-orange-600 lg:w-4/5 rounded-full mx-auto mt-6 w-64">
         <ul class="text-white gap-4 ml-3">
             <li>Home</li>
             <li>About Us</li>
@@ -37,7 +37,7 @@
     
 </nav>
   <!--carousel part-->
-  <div class="carousel w-4/5 ml-32 mt-7">
+  <div class="carousel w-4/5 ml-32 mt-7 absolute">
     <div id="slide1" class="carousel-item relative w-full">
     
       <img class="-z-0" src="images/banner1.png" alt="">
@@ -73,8 +73,18 @@
    
     </header>
     <main>
+        <!--bonus part-->
+<div class="w-2/3 flex bg-white h-52 space-x-5 items-center justify-center mx-auto -mt-20 relative mt-96 ">
+    <div><img src="images/fruit1.png" alt=""><p>Strawberry</p></div>
+<div><img src="images/fruit2.png" alt=""><p>Orange</p></div>
+
+<div><img src="images/fruit3.png" alt=""><p>Mango</p></div>
+<div><img src="images/fruit4.png" alt=""><p>Strawberry</p></div>
+<div><img src="images/fruit5.png" alt=""><p>Banana</p></div>
+</div>
+
         <!--Deal of the day-->
-        <div class="flex justify-between mt-32">
+        <div class="flex justify-between mt-32 sm:grid-rows-1">
             <div><h1 class="font-bold ml-32 mb-3">Deal of the day
                 </h1>
             <p class="ml-32 text-xs">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -108,7 +118,7 @@
         </div>
 <!--customer review section-->
 
-<div class="grid grid-cols-4 w-4/5 gap-x-20 ml-24 mt-10">
+<div class="grid lg:grid-cols-4 w-4/5 gap-x-20 ml-24 mt-10 grid-rows-1 ">
     <div class="card w-64 bg-white shadow-xl gap-y-4">
         <figure class="px-10 pt-10">
           <img src="images/fruit6.png" alt="Shoes" class="rounded-full w-24 h-24"/>
@@ -192,10 +202,80 @@
       </div>
 </div>
 
-    </main>
-    <footer>
 
-    </footer>
+<div class="w-full justify-center">
+    <button class="btn bg-orange-600 rounded-full w-30 h-8 my-8 ml-96 text-white">Shop All</button>
+</div>
+
+<!--meet the team section-->
+<div class="w-4/5"> 
+<img src="images/banner1.png" alt="" class="ml-32 mt-10">
+</div>
+
+<!--Why choose us section-->
+<div class="mt-28 space-y-3">
+    <h1 class="font-bold text-center text-3xl">Why Choose Us</h1>
+    <p class="text-sm text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+</div>
+
+<!--3 column grid section-->
+<div class="grid w-4/5 lg:grid-cols-3 gap-x-3 ml-28 mt-16 grid-rows-1">
+     
+    <!--text-->
+<div class="space-y-3">
+    
+<h1 class="text-xl font-bold gap-x-2"><i class="fa-solid fa-people-group" style="color: #d7dce5;"></i>Dedicated Team</h1>
+ 
+<p class="text-sm text-left">Professional employees are there for you to pick the <br> most amazing and fresh fruits.</p>
+<h1 class="text-xl font-bold">Fresh Is Best</h1>
+<p class="text-sm text-left"> Professional employees are there for you to pick the <br> most amazing and fresh fruits.</p>
+<h1 class="text-xl font-bold">Gift Certificate</h1>
+<p class="text-sm text-left">Professional employees are there for you to pick the <br> most amazing and fresh fruits.</p>
+</div>
+<!--img-->
+<div>
+<img src="images/whychoose1.png" alt="">
+</div>
+<!--text-->
+<div class="space-y-3">
+    <h1 class="text-xl font-bold text-right">Integrated Supplier</h1>
+    <p class="text-sm text-right">Professional employees are there for you to pick the <br> most amazing and fresh fruits.</p>
+    <h1 class="text-xl font-bold text-right">Sustainable Practice</h1>
+    <p class="text-sm text-right"> Professional employees are there for you to pick the <br> most amazing and fresh fruits.</p>
+    <h1 class="text-xl font-bold text-right">The Benefits Only</h1>
+    <p class="text-sm text-right">Professional employees are there for you to pick the <br> most amazing and fresh fruits.</p>
+</div>
+</div>
+
+    </main>
+    <!--footer section starts here-->
+    <footer class="footer footer-center p-10 bg-black text-base-content rounded w-4/5 ml-28 mt-24">
+        <div class="flex">
+            <img src="images/logo.png" alt="" class="h-9">
+            <h1 class="text-white font-bold">Fruit Burst</h1>
+        </div>
+        <div class="grid grid-flow-col gap-4">
+          <a class="link link-hover text-white">Home</a> 
+          <a class="link link-hover text-white">About Us</a> 
+          <a class="link link-hover text-white">Shop</a> 
+          <a class="link link-hover text-white">All Fruits</a>
+          <a class="link link-hover text-white">Support</a>
+          <a class="link link-hover text-white">My Account</a>
+
+        </div> 
+        <div>
+          <div class="grid grid-flow-col gap-4">
+             <!--icons-->
+             <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i>
+             <i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i>
+             <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+             <i class="fa-brands fa-youtube fa-2xl" style="color: #d5d8dd;"></i>
+             <i class="fa-brands fa-apple fa-2xl" style="color: #ffffff;"></i>
+             <i class="fa-brands fa-microsoft fa-2xl" style="color: #ffffff;"></i>
+          </div>
+        </div> 
+         
+      </footer>
     
 </body>
 </html>
